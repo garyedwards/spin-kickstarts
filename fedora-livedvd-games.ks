@@ -55,13 +55,11 @@ tremulous
 ultimatestunts
 vdrift
 vegastrike
-warzone2100
 wesnoth
 widelands
 worminator
 wormux
 xmoto
-xpilot-ng
 
 # traditional (small)
 
@@ -136,7 +134,6 @@ njam
 seahorse-adventures
 shippy
 tecnoballz
-wordwarvi
 #(xgalaga renamed)
 xgalaxy
 zasx
