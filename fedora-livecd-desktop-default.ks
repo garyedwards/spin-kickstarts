@@ -10,6 +10,11 @@ keyboard us
 timezone US/Eastern
 
 %packages
+# space issues for beta
+-gnome-games*
+-firstaidkit*
+-yelp
+-bluecurve-icon-theme
 @albanian-support
 @arabic-support
 @assamese-support
