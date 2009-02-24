@@ -34,6 +34,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * @DATESTAMP@ Jeroen van Meeuwen <kanarip a fedoraunity.org> @VERSION@-@RELEASE@
+- Add de_CH localized spins
+
+* Tue Feb 24 2009 Jeroen van Meeuwen <kanarip a fedoraunity.org> 0.10.4-1
 - Point fedora-live-base.ks repos to f-10
 - Remove sysprof from fedora-livedvd-developer.ks
 - Latest and final rebuild for Fedora 10
