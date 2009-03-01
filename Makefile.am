@@ -5,6 +5,7 @@ kickstart_DATA = \
     fedora-aos.ks \
     fedora-install-fedora.ks \
     fedora-live-base.ks \
+    fedora-livecd-broffice.org.ks \
     fedora-livecd-desktop.ks \
     fedora-livecd-desktop-default.ks \
     fedora-livecd-desktop-de_CH.ks \
