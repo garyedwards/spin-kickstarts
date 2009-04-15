@@ -45,22 +45,16 @@ wireshark-gnome
 @development-libs
 @development-tools
 @fedora-packager
-@gnome-software-development
-@java-development
-@kde-software-development
-@web-development
-@x-software-development
 # Server packages
-@dns-server
-@ftp-server
+@dns-server --nodefaults
+@ftp-server --nodefaults
 @mail-server
 @mysql
 @network-server
-@news-server
 @server-cfg
-@smb-server
-@sql-server
-@web-server --optional
+@smb-server --nodefaults
+@sql-server --nodefaults
+@web-server
 # Keep dap off the install media, makes Eng & Sci show up
 -dap-server-cgi
 # Virt group
@@ -179,3 +173,4 @@ jfsutils
 -libgcj-src
 -*javadoc*
 %end
+
