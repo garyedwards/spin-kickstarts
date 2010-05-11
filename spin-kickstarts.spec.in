@@ -74,6 +74,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/l10n/
 
 %changelog
+* @DATESTAMP@ Bruno Wolff III <bruno@wolff.to> @VERSION@-@RELEASE@
+- F13 release
+
 * @DATESTAMP@ Jeroen van Meeuwen <kanarip a fedoraunity.org> @VERSION@-@RELEASE@
 - New release
 
