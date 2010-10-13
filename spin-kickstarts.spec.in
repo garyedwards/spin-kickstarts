@@ -76,7 +76,10 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
-* @DATESTAMP@ Bruno Wolff III <bruno@wolff.to> @VERSION@-@RELEASE@
+* Tue Oct 12 2010 Bruno Wolff III <bruno@wolff.to> 0.14.3-1
+- Version to appear on final release media unless something is badly broken.
+
+* Mon Sep 06 2010 Bruno Wolff III <bruno@wolff.to> 0.14.2-1
 - Some significant changes since the alpha, so we want a new package for beta.
 
 * Tue Jul 27 2010 Bruno Wolff III <bruno@wolff.to> 0.14.1-1
