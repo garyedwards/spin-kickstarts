@@ -8,6 +8,8 @@
 @graphical-internet
 @sound-and-video
 @gnome-desktop
+# Get animated wallpaper added pending comps change
+laughlin-backgrounds-animated-gnome
 @office
 
 # FIXME; apparently the glibc maintainers dislike this, but it got put into the

@@ -9,6 +9,9 @@
 
 %include fedora-livecd-desktop.ks
 
+# Remove animated background
+-laughlin-backgrounds-animated*
+
 lang pt_BR.UTF-8
 keyboard br-abnt2
 timezone America/Sao_Paulo
