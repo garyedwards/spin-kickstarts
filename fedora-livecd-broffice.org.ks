@@ -72,3 +72,7 @@ gtk2-immodules
 
 %end
 
+%post
+# Since we aren't including the animated backgrounds we should use the plain one.
+gconftool-2 --direct --config-source=xml:readwrite:/etc/gconf/gconf.xml.defaults -t str -s /desktop/gnome/background/picture_filename /usr/share/backgrounds/laughlin/default/laughlin.xml
+%end
