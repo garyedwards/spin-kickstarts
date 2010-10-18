@@ -9,8 +9,6 @@
 
 %include fedora-livecd-desktop.ks
 
-# Remove animated background
--laughlin-backgrounds-animated*
 
 lang pt_BR.UTF-8
 keyboard br-abnt2
@@ -22,6 +20,9 @@ timezone America/Sao_Paulo
 # L10n packages
 @brazilian-support
 hunspell-pt
+
+# Remove animated background
+-laughlin-backgrounds-animated*
 
 # Drop OpenOffice.org in favor of BrOffice.org
 -openoffice.org-*
