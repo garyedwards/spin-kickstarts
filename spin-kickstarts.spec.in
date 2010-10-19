@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Tue Oct 19 2010 Jesse Keating <jkeating@redhat.com> 0.14.4-1
+- Fix i386 split CD install media by scrubbing kernel-PAE
+
 * Tue Oct 12 2010 Bruno Wolff III <bruno@wolff.to> 0.14.3-1
 - Version to appear on final release media unless something is badly broken.
 
