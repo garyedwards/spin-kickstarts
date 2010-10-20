@@ -13,6 +13,9 @@
 # Temporary list of things removed from comps but not synced yet
 -specspo
 
+# Remove animated background
+-laughlin-backgrounds-animated*
+
 # Drop the Java plugin
 -java-1.6.0-openjdk-plugin
 -java-1.6.0-openjdk
@@ -71,4 +74,9 @@
 %end
 
 %post
+# Since we aren't including the animated backgrounds we should use the plain one
+.
+gconftool-2 --direct --config-source=xml:readwrite:/etc/gconf/gconf.xml.defaults
+ -t str -s /desktop/gnome/background/picture_filename /usr/share/backgrounds/lau
+ghlin/default/laughlin.xml
 %end
