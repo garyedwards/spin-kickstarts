@@ -76,6 +76,15 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Sun Oct 31 2010 Bruno Wolff III <bruno@wolff.to> - 0.14.5-1
+- Patches are upstream now and there is one lxde change.
+
+* Wed Oct 20 2010 Jesse Keating <jkeating@redhat.com> - 0.14.4-3
+- Include patchs to scrub xfce and more kernel-PAE* from the media
+
+* Wed Oct 20 2010 Bruno Wolff III <bruno@wolff.to> 0.14.4-2
+- Include changes to get desktop cd under size.
+
 * Tue Oct 19 2010 Jesse Keating <jkeating@redhat.com> 0.14.4-1
 - Fix i386 split CD install media by scrubbing kernel-PAE
 
