@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Fri May  2 2011 Bruno Wolff III <bruno@wolff.to> 0.15.5-1
+- Update package for final release (includes repo changes)
+
 * Fri Apr 01 2011 Bruno Wolff III <bruno@wolff.to> 0.15.4-1
 - Enough has changed that it seems worth doing a new beta build
 
